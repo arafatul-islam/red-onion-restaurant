@@ -29,14 +29,14 @@ const NavBar = () => {
           className=' justify-content-end text-dark '
         >
           <Nav className=' col-lg-4  col-12  d-lg-flex   justify-content-between'>
-            <Nav.Link as={Link} to='/' className='text-center'>
+            <Nav.Link as={Link} to='cart' className='text-center'>
               <FaCartArrowDown size={30} color='black' />
             </Nav.Link>
-            <Nav.Link as={Link} to='' className='text-center '>
+            <Nav.Link as={Link} to='login' className='text-center '>
               Login
             </Nav.Link>
             <Button variant='danger' size='lg' className='rounded-pill'>
-              <Link to='/' className='text-white text-decoration-none  '>
+              <Link to='register' className='text-white text-decoration-none  '>
                 Sign up
               </Link>
             </Button>
