@@ -1,4 +1,4 @@
-export const meals = {
+const meals = {
   breakfast: [
     {
       id: 1,
@@ -132,3 +132,5 @@ export const meals = {
     },
   ],
 }
+
+export default meals

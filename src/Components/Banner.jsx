@@ -5,7 +5,9 @@ import './../App.css'
 const Banner = () => {
   return (
     <div className='banner'>
-      <h1>Best food waiting for your belly</h1>
+      <div className='col-lg-8 col-md-8 col-sm-10 '>
+        <p className='display-1 text-center'>Best food waiting for you belly</p>
+      </div>
 
       <div className='col-lg-3 col-md-6 col-sm-6'>
         <InputGroup className='my-2 rounded-pill '>
