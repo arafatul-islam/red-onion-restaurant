@@ -9,7 +9,7 @@ const Banner = () => {
         <p className='display-1 text-center'>Best food waiting for you belly</p>
       </div>
 
-      <div className='col-lg-3 col-md-6 col-sm-6'>
+      <div className='col-lg-3 col-md-6 col-sm-6 '>
         <InputGroup className='my-2 rounded-pill '>
           <FormControl
             placeholder='search food names'

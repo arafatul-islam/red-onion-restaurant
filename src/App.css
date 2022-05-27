@@ -1,3 +1,18 @@
+/* ============================================================= */
+.link-hover {
+  color: inherit;
+  border: inherit;
+  padding: inherit;
+}
+.link-hover:hover {
+  color: tomato;
+  border-bottom: 3px solid tomato;
+  padding-bottom: 3px;
+}
+.link-hover:active {
+  border-bottom: 1px solid tomato;
+}
+
 /* Login Page */
 /* ================================================================ */
 
@@ -10,3 +25,4 @@
   justify-content: center;
   margin-bottom: 25px;
 }
+/* ==================================== */
