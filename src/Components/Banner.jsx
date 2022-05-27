@@ -6,7 +6,9 @@ const Banner = () => {
   return (
     <div className='banner'>
       <div className='col-lg-8 col-md-8 col-sm-10 '>
-        <p className='display-1 text-center'>Best food waiting for you belly</p>
+        <p className='display-1 text-center'>
+          Best food waiting for your belly
+        </p>
       </div>
 
       <div className='col-lg-3 col-md-6 col-sm-6 '>
@@ -19,13 +21,6 @@ const Banner = () => {
           <Button variant='danger' size='lg' className='ext-white'>
             Search
           </Button>
-          {/* <InputGroup.Text
-            id='basic-addon2'
-            className='bg-danger text-white rounded-pill'
-            size='lg'
-          >
-            Search
-          </InputGroup.Text> */}
         </InputGroup>
       </div>
     </div>
