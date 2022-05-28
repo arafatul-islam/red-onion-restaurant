@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import Banner from '../Components/Banner'
+import ChooseUs from '../Components/ChooseUs'
 
 const Home = () => {
   return (
     <>
       <Banner />
+
       <h4 className='text-center  d-xs-flex flex-column '>
         <Link
           to='breakfast '
@@ -20,8 +22,10 @@ const Home = () => {
           Dinner
         </Link>
       </h4>
-      {/* <PrivateOutlet /> */}
+      {/* showFood outlet  */}
       <Outlet />
+
+      <ChooseUs />
     </>
   )
 }

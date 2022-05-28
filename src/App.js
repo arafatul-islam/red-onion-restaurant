@@ -8,6 +8,7 @@ import Launch from './Components/Launch'
 import Dinner from './Components/Dinner'
 import NavBar from './Components/NavBar'
 import FoodDetails from './Components/FoodDetails'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='register' element={<Register />} />
         <Route path='login' element={<Login />} />
       </Routes>
+      <Footer />
     </>
   )
 }

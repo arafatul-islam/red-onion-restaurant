@@ -8,7 +8,7 @@ const FoodDetails = (props) => {
   const allMealItems = useContext(MealContext)
   const currentMeal = allMealItems.find((meal) => meal.name === id)
   return (
-    <div id='food-details'>
+    <section id='food-details'>
       <Container className='col-lg-4 '>
         <Card className='border-0 '>
           <Card.Img variant='top' className='' src={currentMeal.img} />
@@ -20,7 +20,7 @@ const FoodDetails = (props) => {
           <button className='btn btn-danger'>Order Now</button>
         </Card>
       </Container>
-    </div>
+    </section>
   )
 }
 

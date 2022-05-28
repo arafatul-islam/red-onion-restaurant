@@ -4,7 +4,7 @@ import './../App.css'
 
 const Banner = () => {
   return (
-    <div className='banner'>
+    <section className='banner'>
       <div className='col-lg-8 col-md-8 col-sm-10 '>
         <p className='display-1 text-center'>
           Best food waiting for your belly
@@ -23,7 +23,7 @@ const Banner = () => {
           </Button>
         </InputGroup>
       </div>
-    </div>
+    </section>
   )
 }
 
