@@ -6,6 +6,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/GQ4K0HR/breakfast1.png',
       price: 24,
+      type: 'breakfast',
     },
     {
       id: 2,
@@ -13,6 +14,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/DfRWQBs/breakfast2.png',
       price: 13,
+      type: 'breakfast',
     },
     {
       id: 3,
@@ -20,6 +22,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/ZdW0HQv/breakfast3.png',
       price: 15,
+      type: 'breakfast',
     },
     {
       id: 4,
@@ -27,6 +30,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/DV15Xf4/breakfast4.png',
       price: 9,
+      type: 'breakfast',
     },
     {
       id: 5,
@@ -34,6 +38,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/X3mnjgF/breakfast5.png',
       price: 10,
+      type: 'breakfast',
     },
     {
       id: 6,
@@ -41,6 +46,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/3YcNN5L/breakfast6.png',
       price: 27,
+      type: 'breakfast',
     },
   ],
   launch: [
@@ -50,6 +56,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/NYqgdNJ/lunch1.png',
       price: 24,
+      type: 'launch',
     },
     {
       id: 2,
@@ -57,6 +64,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/sJNgCNK/lunch2.png',
       price: 13,
+      type: 'launch',
     },
     {
       id: 3,
@@ -64,6 +72,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/9gQWjvm/lunch3.png',
       price: 15,
+      type: 'launch',
     },
     {
       id: 4,
@@ -71,6 +80,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/b5D1rZn/lunch4.png',
       price: 9,
+      type: 'launch',
     },
     {
       id: 5,
@@ -78,6 +88,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/cwHpy76/lunch5.png',
       price: 10,
+      type: 'launch',
     },
     {
       id: 6,
@@ -85,6 +96,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/BPNjJvM/lunch6.png',
       price: 27,
+      type: 'launch',
     },
   ],
   dinner: [
@@ -94,6 +106,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/HdbNQMs/dinner1.png',
       price: 24,
+      type: 'dinner',
     },
     {
       id: 2,
@@ -101,6 +114,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/wy4HsZk/dinner2.png',
       price: 13,
+      type: 'dinner',
     },
     {
       id: 3,
@@ -108,6 +122,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/9trCYgq/dinner3.png',
       price: 15,
+      type: 'dinner',
     },
     {
       id: 4,
@@ -115,6 +130,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/fxmkKWg/dinner4.png',
       price: 9,
+      type: 'dinner',
     },
     {
       id: 5,
@@ -122,6 +138,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/T1qhz9Y/dinner5.png',
       price: 10,
+      type: 'dinner',
     },
     {
       id: 6,
@@ -129,6 +146,7 @@ const meals = {
       des: 'How we dream about our future',
       img: 'https://i.ibb.co/DtT5n4N/dinner6.png',
       price: 27,
+      type: 'dinner',
     },
   ],
 }

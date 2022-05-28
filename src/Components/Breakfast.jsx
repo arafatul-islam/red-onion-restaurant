@@ -3,8 +3,10 @@ import { MealContext } from '../Contexts/MealsProvider'
 import ShowFoods from './ShowFoods'
 
 const Breakfast = () => {
-  const mealItems = useContext(MealContext)
-  const breakfastItems = mealItems.breakfast
+  const allMealItems = useContext(MealContext)
+  const breakfastItems = allMealItems.filter(
+    (meal) => meal.type === 'breakfast'
+  )
 
   return (
     <>

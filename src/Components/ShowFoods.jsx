@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 
 const ShowFoods = ({ food }) => {
+  console.log(food)
   return (
     <>
       <Container className='my-5'>

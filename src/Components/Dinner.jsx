@@ -3,8 +3,8 @@ import { MealContext } from '../Contexts/MealsProvider'
 import ShowFoods from './ShowFoods'
 
 const Dinner = () => {
-  const mealItems = useContext(MealContext)
-  const dinnerItems = mealItems.dinner
+  const allMealItems = useContext(MealContext)
+  const dinnerItems = allMealItems.filter((meal) => meal.type === 'dinner')
   return <ShowFoods key={Math.random()} food={dinnerItems} />
 }
 // ;
